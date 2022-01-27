@@ -1,0 +1,230 @@
+/*900px ----  1115px
+*/
+@media all and (max-width: 1115px) and (min-width: 900px){
+	
+	.navbrand{
+		font-size: 30px;
+	}
+
+	.navbar ul li {
+		margin: 20px 25px;
+	}
+
+	.leftSection div h1{
+		font-size: 28px;
+	}
+
+	.leftSection div h3{
+		font-size: 18px;
+		
+	}
+
+	#hirebtn{
+		font-size: 18px;
+		padding: 5px 30px;
+	}
+
+	.socialLinks i{
+		font-size: 25px;
+	}
+
+	#cv{
+		color: var(--complimentaryColor);
+	}
+
+
+}
+
+
+@media all and (max-width: 900px) and (min-width: 800px){
+
+	.navbar{
+		flex-direction: column;
+	}
+
+	.navbar ul{
+		display: none;
+	}
+
+	.navbar ul li{
+		display: block;
+		margin-top: 50px;
+		align-items: center;
+	}
+
+	#hamburger{
+		position: absolute;
+		display: inline-block;
+		right: 5%;
+		top: 40%;
+	}
+
+	.navbrand{
+		font-size: 40px;
+	}
+
+	.leftSection div h1{
+		font-size: 25px;
+	}
+
+	.leftSection div h3{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	#hirebtn{
+		font-size: 18px;
+		padding: 5px 25px;
+	}
+
+	.socialLinks i{
+		font-size: 20px;
+	}
+
+	#Diwash{
+		width: 70%;
+		height: 65%;
+	}
+
+}
+
+@media all and (max-width: 799px) {
+	.navbar{
+		flex-direction: column;
+	}
+
+	.navbar ul{
+		display: none;
+	}
+
+	.navbar ul li{
+		display: block;
+		margin-top: 50px;
+		align-items: center;
+	}
+
+	#hamburger{
+		position: absolute;
+		display: inline-block;
+		right: 5%;
+		top: 40%;
+	}
+
+	.navbrand{
+		font-size: 40px;
+	}
+
+	.leftSection div h1{
+		font-size: 20px;
+	}
+
+	.leftSection div h3{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	#hirebtn{
+		font-size: 18px;
+		padding: 5px 25px;
+	}
+
+	.socialLinks{
+		position: absolute;
+		width: 30%;
+		background: var(--primaryColor);
+		display: flex;
+		flex-direction: row;	
+		left: 5%;
+		top: 80%;
+		height: 50px;
+		justify-content: space-around;
+		align-items: center;
+}
+
+	.socialLinks i{
+		font-size: 25px;
+		margin: 0;
+	}
+
+	#Diwash{
+		width: 70%;
+		height: 65%;
+	}
+
+}
+
+@media all and (max-width: 629px){
+
+	#cv{
+		display: none;
+	}
+
+	.navbar{
+		background: var(--primaryColor);
+	}
+
+	.navbrand{
+		color: var(--complimentaryColor);
+	}
+
+	.navbar ul li a{
+		color: var(--complimentaryColor);
+	}
+
+	#hamburger{
+		color: var(--complimentaryColor);
+	}
+
+
+	.leftSection{
+		width: 100%;
+	}
+	.rightSection{
+		display: none;
+	}
+
+	.socialLinks{
+		display: none;
+	}
+
+	.leftSection div h1{
+		font-size: 40px;
+	}
+
+	.leftSection div h3{
+		font-size: 20px;
+	}
+
+	.leftSection div h4{
+		font-size: 20px;
+	}
+
+	#hirebtn{
+		padding: 10px 50px;
+		margin-top: 10%;
+	}
+
+	#hirebtn:hover{
+		color: var(--complimentaryColor);
+	}
+
+}
+
+@media all and (max-width: 500px){
+	.navbrand{
+		font-size: 30px;
+	}
+
+	#hamburger{
+		font-size: 20px;
+	}
+
+	.leftSection div h1{
+		font-size: 25px;
+	}
+
+	#hirebtn{
+		font-size: 20px;
+		padding: 5px 30px;
+	}
+}
